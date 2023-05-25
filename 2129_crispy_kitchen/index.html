@@ -82,9 +82,6 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <label for="name">Name:</label>
                         <input type="text" id="name" required>
 
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" required>
-
                         <label for="phone">Phone:</label>
                         <input type="tel" id="phone" required>
 
@@ -606,9 +603,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
         document.getElementById("reservation-form").addEventListener("submit", function (event) {
             event.preventDefault(); // Prevent form submission
 
-            // Get form values
             var name = document.getElementById("name").value;
-            var email = document.getElementById("email").value;
             var phone = document.getElementById("phone").value;
             var date = document.getElementById("date").value;
             var time = document.getElementById("time").value;
