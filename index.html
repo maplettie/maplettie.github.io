@@ -496,24 +496,19 @@ https://www.tooplate.com/view/2129-crispy-kitchen
         </div><!-- container ending -->
 
     </footer>
-
-    <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/custom.js"></script>
     <script>
         document.getElementById("reserve-button").addEventListener("click", function () {
             var formContainer = document.getElementById("reservation-form-container");
-           
+
 
             if (formContainer.classList.contains("active")) {
                 // Hide the form and overlay
                 formContainer.classList.remove("active");
-               
+
             } else {
                 // Show the form and overlay
                 formContainer.classList.add("active");
-                
+
             }
         });
 
@@ -539,11 +534,11 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                 // Reset form
                 this.reset();
                 document.getElementById("reservation-form-container").classList.remove("active");
-               
+
             }
         });
 
-       
+
 
 
 
